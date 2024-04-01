@@ -1,13 +1,16 @@
+/*caja 1*/
+
 #intro {
     background-image: url(../Images/edificios1.jpg);
     background-position: 50%;
     background-size: cover;
-    height: 50vh;
-    color: #000;
+    height: 70vh;
+    color: #eeeeee;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-around;
+    box-shadow: 100vh 100vw #00000070 inset;
 }
 
 #intro div {
@@ -36,3 +39,8 @@
 #intro-img img {
     width: 50%;
 }
+
+/*caja 2*/
+/*caja 3*/
+/*caja 4*/
+/*caja 5*/
