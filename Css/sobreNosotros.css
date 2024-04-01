@@ -1,6 +1,13 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 /*caja 1*/
 
 #intro {
+    width: 100%;
     background-image: url(../Images/edificios1.jpg);
     background-position: 50%;
     background-size: cover;
@@ -43,6 +50,7 @@
 /*caja 2*/
 
 #datos {
+    width: 100%;
     background-color: #ee4a00;
     color: #fff;
     display: flex;
@@ -73,5 +81,54 @@
 }
 
 /*caja 3*/
+
+#valores {
+    width: 70%;
+}
+
+#mision {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5% 0%;
+}
+
+#vision {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+}
+
+#valores-text {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+#vision #valores-text {
+    justify-content: right;
+}
+
+#valores-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#valores-img img {
+    width: 50%;
+}
+
 /*caja 4*/
+
+#ubicacion {
+    width: 100%;
+}
+
 /*caja 5*/
+
+#contacto {
+    width: 100%;
+}
