@@ -41,6 +41,37 @@
 }
 
 /*caja 2*/
+
+#datos {
+    background-color: #ee4a00;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+#datos div {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#datos h1 {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#datos p {
+    margin: 0;
+}
+
 /*caja 3*/
 /*caja 4*/
 /*caja 5*/
