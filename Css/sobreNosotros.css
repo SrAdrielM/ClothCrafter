@@ -10,6 +10,29 @@
     justify-content: space-around;
 }
 
+#intro div {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
 #intro-1 {
+    padding-left: 5%;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+#intro-1 p {
+    font-weight: 400;
+}
+
+#intro-img {
+    justify-content: center;
+}
+
+#intro-img img {
     width: 50%;
 }
