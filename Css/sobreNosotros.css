@@ -122,6 +122,30 @@ main {
     width: 50%;
 }
 
+#Valores {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #dd0680;
+}
+
+#Valores h1 {
+    width: 100%;
+}
+
+#Valores img {
+    width: 30%;
+}
+
+#Valor-img {
+    
+}
+
+#Valores div {
+    width: 25%;
+}
+
 /*caja 4*/
 
 #ubicacion {
