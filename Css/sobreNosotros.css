@@ -90,6 +90,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     padding: 5% 0%;
+    margin-bottom: 4%;
 }
 
 #vision {
