@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #1C242F;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    min-height: 70vh;
+    align-items: center;
+}
+
+.bg {
+    position: absolute;
+    width: 1100px;
+    z-index: -1;
+    left: -100px;
+    top: -300px;
+}
+
+.header-content {
+    display: flex;
+}
+
+.header-txt {
+    width: 50%;
+}
+
+.header-txt h1 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #FEFFFB;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.header-txt span {
+    font-weight: 800;
+}
+
+.header-txt p {
+    color: #D9D9D9;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.header-img {
+    width: 50%;
+}
+
+.lap {
+    width: 650px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 35px;
+    color: #FEFFFB;
+    border-radius: 25px;
+    background: linear-gradient(90deg,rgba(131,45,153,1) 33%,rgba(193,58,143,1) 69%,rgba(196,37,116,1) 100%);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.info {
+    display: inline-block;
+    font-size: 14px;
+    font-weight:  800;
+    padding: 2px 45px;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #BB4E8A;
+    background-color: #40223A;
+    margin-bottom: 15px;
+}
+
+.services h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FEFFFB;
+    margin-bottom: 45px;
+}
+
+.services-content {
+    display: flex;
+    align-items: center;
+}
+
+.services-txt {
+    width: 50%;
+}
+
+.services-card {
+    display: flex;
+    align-items: flex-start;
+    background-color: #151C24;
+    padding: 15px 20px;
+    border-radius: 25px;
+    width: 500px;
+    margin-bottom: 35px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.services-card img {
+    width: 25px;
+    margin-right: 25px;
+}
+
+.card-txt {
+    text-align: left;
+}
+
+.card-txt h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FEFFFB;
+    margin-bottom: 10px;
+}
+
+.card-txt p {
+    font-size: 16px;
+    color: #8D8D8D;
+    margin-bottom: 10px;
+}
+
+.card-txt a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FEFFFB;
+}
+
+.services-img {
+    width: 50%;
+}
+
+.services-img img {
+    width: 550px;
+}
