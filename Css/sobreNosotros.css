@@ -133,7 +133,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background-color: #f86cbb;
+    background-color: #ff488e;
 }
 
 #Valores h1 {
@@ -177,15 +177,12 @@ p {
     width: 100%;
 }
 
-#title {
-    width: 100%;
-}
-
 #mapa {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-top: 2%;
 }
 
 #mapa p {
@@ -216,4 +213,11 @@ p {
 
 #contacto {
     width: 100%;
+    margin-top: 3%;
+}
+
+#formularios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
