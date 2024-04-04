@@ -20,7 +20,7 @@ body {
     position: relative;
     min-height: 60vh;
     align-items: center;
-    background-image: url(../Img/ImgDesc0.png);
+    background-image: url(../Images/ImgDesc0.png);
     z-index: -2;
 }
 
