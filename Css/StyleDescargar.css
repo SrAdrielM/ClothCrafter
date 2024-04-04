@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #1C242F;
+    background-color: #ffffff;
 }
 
 .container {
@@ -24,10 +24,10 @@ body {
 
 .bg {
     position: absolute;
-    width: 1100px;
+    width: 1800px;
     z-index: -1;
-    left: -100px;
-    top: -300px;
+    left: -530px;
+    top: -390px;
 }
 
 .header-content {
@@ -41,7 +41,7 @@ body {
 .header-txt h1 {
     font-size: 55px;
     line-height: 70px;
-    color: #FEFFFB;
+    color: #000000;
     font-weight: 500;
     margin-bottom: 35px;
 }
@@ -51,7 +51,7 @@ body {
 }
 
 .header-txt p {
-    color: #D9D9D9;
+    color: #000000;
     font-size: 16px;
     margin-bottom: 35px;
 }
@@ -61,7 +61,7 @@ body {
 }
 
 .lap {
-    width: 650px;
+    width: 400px;
 }
 
 .btn-1 {
@@ -95,7 +95,7 @@ body {
     font-size: 40px;
     font-weight: 600;
     color: #FEFFFB;
-    margin-bottom: 45px;
+    margin-bottom: 45px; 
 }
 
 .services-content {
@@ -110,7 +110,7 @@ body {
 .services-card {
     display: flex;
     align-items: flex-start;
-    background-color: #151C24;
+    background-color: #a8a8a8;
     padding: 15px 20px;
     border-radius: 25px;
     width: 500px;
@@ -130,13 +130,13 @@ body {
 .card-txt h3 {
     font-size: 16px;
     font-weight: 600;
-    color: #FEFFFB;
+    color: #000000;
     margin-bottom: 10px;
 }
 
 .card-txt p {
     font-size: 16px;
-    color: #8D8D8D;
+    color: #000000;
     margin-bottom: 10px;
 }
 
