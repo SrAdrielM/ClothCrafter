@@ -140,3 +140,63 @@ body {
 .services-img img {
     width: 550px;
 }
+
+@media(max-width: 991px) {
+    .bg {
+        width: 300px;
+        left: -100px;
+        top: -50px;
+    }
+
+    .header {
+        min-height: 45vh;
+    }
+
+    .header-content {
+        flex-direction: column;
+        padding: 100px 30px 0px 30px;
+        text-align: center;
+    }
+
+    .header-txt {
+        width: 100%;
+    }
+
+    .header-txt h1 {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 15px;
+    }
+
+    .header-img {
+        width: 100%;
+    }
+
+    .lap {
+        width: 250px;
+    }
+
+    .services {
+        padding: 30px;
+    }
+
+    .services-content {
+        flex-direction: column;
+    }
+
+    .services-txt {
+        width: 100%;
+    }
+
+    .services-card {
+        width: 100%;
+    }
+
+    .services-img {
+        width: 250px;
+    }
+
+    .services-img img {
+        width: 250px;
+    }
+}
