@@ -18,16 +18,18 @@ body {
 .header {
     display: flex;
     position: relative;
-    min-height: 70vh;
+    min-height: 60vh;
     align-items: center;
+    background-image: url(../Img/ImgDesc0.png);
+    z-index: -2;
 }
 
 .bg {
     position: absolute;
-    width: 1800px;
+    width: 1000px;
     z-index: -1;
-    left: -530px;
-    top: -390px;
+    left: -150px;
+    top: -500px;
 }
 
 .header-content {
@@ -41,17 +43,14 @@ body {
 .header-txt h1 {
     font-size: 55px;
     line-height: 70px;
-    color: #000000;
+    color: #ffffff;
     font-weight: 500;
     margin-bottom: 35px;
 }
 
-.header-txt span {
-    font-weight: 800;
-}
 
 .header-txt p {
-    color: #000000;
+    color: #ffffff;
     font-size: 16px;
     margin-bottom: 35px;
 }
@@ -61,16 +60,8 @@ body {
 }
 
 .lap {
-    width: 400px;
-}
-
-.btn-1 {
-    display: inline-block;
-    padding: 13px 35px;
-    color: #FEFFFB;
-    border-radius: 25px;
-    background: linear-gradient(90deg,rgba(131,45,153,1) 33%,rgba(193,58,143,1) 69%,rgba(196,37,116,1) 100%);
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    border-radius: 30px;
 }
 
 .services {
@@ -80,23 +71,17 @@ body {
 
 .info {
     display: inline-block;
-    font-size: 14px;
+    font-size: 15px;
     font-weight:  800;
     padding: 2px 45px;
     border-radius: 25px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #BB4E8A;
-    background-color: #40223A;
-    margin-bottom: 15px;
+    color: #e79752;
+    background-color: #603c1b;
+    margin-bottom: 10px;
 }
 
-.services h2 {
-    font-size: 40px;
-    font-weight: 600;
-    color: #FEFFFB;
-    margin-bottom: 45px; 
-}
 
 .services-content {
     display: flex;
@@ -110,7 +95,7 @@ body {
 .services-card {
     display: flex;
     align-items: flex-start;
-    background-color: #a8a8a8;
+    background-color: #ffffff;
     padding: 15px 20px;
     border-radius: 25px;
     width: 500px;
@@ -119,8 +104,10 @@ body {
 }
 
 .services-card img {
-    width: 25px;
+    width: 35px;
+    margin-top: 10px;
     margin-right: 25px;
+    border-right: 1px solid black;
 }
 
 .card-txt {
