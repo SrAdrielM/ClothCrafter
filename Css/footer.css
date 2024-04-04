@@ -18,15 +18,11 @@ footer {
     list-style: none;
     padding: 0;
   }
-  
-  a {
-    color: #fff;
-    text-decoration: none;
+
+  footer h3 {
+    font-weight: 400;
   }
-  
-  a:hover {
-    text-decoration: underline;
-  }
+
   @keyframes slideIn {
     from {
       opacity: 0;
@@ -36,15 +32,5 @@ footer {
       opacity: 1;
       transform: translateY(0);
     }
-  }
-  
-  footer {
-    background-color: #000000;
-    color: #fff;
-    padding: 20px 0;
-    animation: slideIn 0.5s ease forwards;
-  }
-  footer {
-    font-family: 'Arial', sans-serif; /* Cambia 'Arial' por el nombre de la fuente que desees utilizar */
   }
     
