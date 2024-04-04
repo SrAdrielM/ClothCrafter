@@ -181,6 +181,18 @@ p {
     width: 100%;
 }
 
+#mapa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#mapa p {
+    width: 50%;
+    padding: 2%;
+}
+
 #imagenes {
     width: 100%;
     display: flex;
@@ -192,11 +204,12 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 #imagenes img {
     width: 45%;
-    margin: 1%;
+    padding: 1%;
 }
 
 /*caja 5*/
